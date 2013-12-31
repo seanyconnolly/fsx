@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+	body { overflow-x: hidden; }
+	#header, #container, #home-top-content, #home-top-content ul li, #main-content, .footerText { width: 768px; }	
+	#footer { width: 748px; }
+	#logo { margin: 23px 0 0 30px; }
+	nav { margin-right: 15px; }
+	#top-content, .span9, .span10 { width: auto; }
+	#header nav > ul > li > a { padding: 43px 15px 37px 15px; }
+	#top-content .main1, .subtitle { margin-left: 30px; }
+	#home-top-content .main1 { margin-left: 30px; width: 330px; }
+	#main-content h2 { font-size: 26px; }
+	.controls { margin-left: 4px; }
+	.banner-img { margin-right: 20px; width: 50%; }
+	.our-service { padding-right: 0; padding-top: 0; height: 208px; }
+	.service-range { margin-bottom: 30px; margin-left: 30px; }
+	#service-icons, #blog-posts, #clients-icons {  }
+	.service-icon h5, h5.blog, a.blog-icon { font-size: 12px; }
+	a.service-icon span, a.blog-icon span { font-size: 11px; }
+	a.service-icon { width: 160px; }
+	a.blog-icon, a.clients { width: 153px; }
+	.clients img { width: 80%; }
+	.tweet, .social-icons { width: 500px; }
+	.tweet h3 { font-size: 16px; }
+	.latest-blog { min-height: 295px; }
+	.latest-clients { min-height: 160px; }
+	a.social { margin-right: 23px; }
+	.connected { min-height: 144px; }
+	.social-icons img, footer .intro ul li.services, footer .intro ul li, footer .intro ul li.posts { width: auto; }
+	.text1 { width: 142px; }
+	.right-side .text1, .comm-text, div.author-reply .comm-text { width: auto; }
+	.footerText { padding-bottom: 30px; }
+	
+	.our-portfolio, .portfolio, .blogslider-body, li.blogslider-item { width: 518px; }
+	.subtitle { font-size: 34px; }
+	.team1 { width: 150px; }
+	.ourTeam { margin-left: -30px; }
+	.service-stuff { width: 488px; margin-left: 10px; }
+	.hire-us { width:471px; margin-left: 10px; padding-left: 10px; padding-bottom: 5px; font-size: 17px;  }
+	a.button-hire .text { font-size: 20px; height: 32px; padding: 5px 20px; }
+	.testimonial-text { width: 308px; font-size: 17px; }
+	
+	.service-text { width: 370px; margin-bottom: 20px; }
+	.service-thumb { width: 70px; }
+	.ourServices .service1 { margin-left: 30px;  }
+	
+	div.blog-icon2 { width: 488px; margin-left: 10px; }
+	
+	#top-content .main3 { margin-right: -150px; }
+	.portfolio-item { width: 480px; }
+	.portfolio + .span10 { margin-left: 10px; } 
+	.long-desc { float:none; margin-top:30px; margin-bottom:30px; width:480px; }
+	
+	.right-side-contact { display:none; }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 720px) {
+	body { overflow-x: hidden; }
+	#header, #container, #home-top-content, #home-top-content ul li, #main-content, .footerText { width: 480px; }	
+	#footer { width: 480px; }
+	#logo { margin: 0 auto; margin-top: 20px; width: 480px; text-align: center; }
+	#main-nav { margin-right: 0; border-top: 1px solid #fff; margin-top: 20px; background: #fff; }
+	#header nav > ul > li > a:hover, #header nav > ul > li.current-menu-item > a { background: none; }
+	#main-nav ul { margin: 0; }
+	#header nav > ul > li { float:none; width: 480px; line-height: 16px; }
+	#header nav > ul > li > a { padding: 10px; padding-left: 30px; font-size: 20px; }
+	#home-top-content h1, #home-top-content h2, #home-top-content h3, #top-content h1, #top-content h2, #top-content h3 { font-size: 30px; }
+	a.button .text { font-size: 20px; line-height: 30px; padding: 8px 16px; height: 30px; }
+	#top-content, .span9, .span10 { width: auto; }
+	#top-content .main1, .subtitle { margin-left: 30px; }
+	#home-top-content .main1 { margin-left: 30px; width: 420px; }
+	#main-content h2 { font-size: 26px; }
+	.controls { margin-left: 4px; }
+	.banner-img { display: none; }
+	.our-service { padding-right: 0; padding-top: 0; height: 310px; }
+	.service-icon img { width: 70%; }
+	.service-range { margin-left: 30px; margin-bottom: 20px; float: none; }
+	#service-icons, #blog-posts, #clients-icons {  }
+	.service-icon h5, h5.blog, a.blog-icon { font-size: 12px; }
+	a.service-icon span, a.blog-icon span { font-size: 11px; }
+	a.service-icon { width: 130px; }
+	a.blog-icon, a.clients { width: 123px; }
+	figure.clients { width: auto; }
+	a.clients { min-height: 1px; }
+	.clients img { width: 80%; }
+	.tweet, .social-icons { width: 420px; padding-left: 30px; padding-bottom: 20px; margin-top: 20px; float: none; }
+	.tweet h3 { font-size: 16px; }
+	.latest-blog { min-height: 414px; }
+	.latest-clients { min-height: 200px; }
+	a.social { margin-right: 23px; float: none; }
+	.connected { min-height: 200px; }
+	.social-icons img, footer .intro ul li.services, footer .intro ul li, footer .intro ul li.posts, .span3 { width: auto; }
+	.text1 { width: 420px; margin-bottom: 30px; }
+	.right-side .text1, .comm-text, div.author-reply .comm-text { width: auto; }
+	.footerText { padding-bottom: 30px; height: auto; }
+	
+	.our-portfolio, .portfolio, .blogslider-body, li.blogslider-item { width: 450px; }
+	.right-side { display: none; }
+	.subtitle { font-size: 24px; }
+	.team1 { width: 130px; }
+	.ourTeam { margin-left: -30px; }
+	.service-stuff { width: 420px; margin-left: 10px; }
+	.hire-us { width:410px; margin-left: 10px; padding-left: 10px; padding-bottom: 0; font-size: 14px;  }
+	a.button-hire .text { font-size: 20px; height: 32px; padding: 5px 20px; }
+	.testimonial-text { width: 246px; font-size: 14px; }
+	
+	.service-text { width: 310px; margin-bottom: 20px; }
+	.service-thumb { width: 70px; }
+	.ourServices .service1 { margin-left: 30px;  }
+	
+	div.blog-icon2 { width: 420px; margin-left: 10px; }
+	#static-content .main4, #static-content .main2 { display: none; }
+	#static-content .main1 { width: 420px; }
+	a.blog-icon2, a.showcase-icon { width: 190px; }
+	li.page-nav, ul.bottom-arrows li { font-size: 14px; padding: 5px 12px; }
+	
+	#top-content .main3 { margin-right: 0px; }
+	.portfolio-item { width: 400px; }
+	.portfolio + .span10 { margin-left: 10px; } 
+	.long-desc { float:none; margin-top:30px; margin-bottom:30px; width:400px; }
+	
+	.right-side-contact { display:none; }
+	.leave-message, .form-field, .post-text, iframe#googleMap { width: 400px; }
+	div.contact { width: 440px; }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) { 
+	body { overflow-x: hidden; }
+	#header, #container, #home-top-content, #home-top-content ul li, #main-content, .footerText, #copyright { width: 320px; }	
+	#footer { width: 320px; }
+	#logo { margin: 0 auto; margin-top: 20px; width: 320px; text-align: center; }
+	#main-nav { margin-right: 0; border-top: 1px solid #fff; margin-top: 20px; background: #fff; }
+	#header nav > ul > li > a:hover, #header nav > ul > li.current-menu-item > a { background: none; }
+	#main-nav ul { margin: 0; }
+	#header nav > ul > li { float:none; width: 320px; line-height: 16px; }
+	#header nav > ul > li > a { padding: 10px; padding-left: 30px; font-size: 20px; }
+	#home-top-content h1, #home-top-content h2, #home-top-content h3, #top-content h1, #top-content h2, #top-content h3 { font-size: 30px; }
+	a.button .text { font-size: 20px; line-height: 30px; padding: 8px 16px; height: 30px; }
+	#top-content, .span9, .span10 { width: auto; }
+	#top-content .main1, .subtitle { margin-left: 30px; }
+	#home-top-content .main1 { margin-left: 30px; width: 270px; }
+	#main-content h2 { font-size: 26px; }
+	.intro { width: 270px; }
+	.controls { margin-left: 4px; }
+	.banner-img { display: none; }
+	.our-service { padding-right: 0; padding-top: 0; height: 310px; }
+	.service-icon img { width: 70%; }
+	.service-range { margin-left: 30px; margin-bottom: 20px; float: none; }
+	#service-icons, #blog-posts, #clients-icons {  }
+	.service-icon h5, h5.blog, a.blog-icon { font-size: 12px; }
+	a.service-icon span, a.blog-icon span { font-size: 11px; }
+	a.service-icon { width: 80px; }
+	a.blog-icon, a.clients { width: 150px; }
+	a.blog-icon { min-height: 280px; width: 120px; float: left; margin-left: 30px; margin-right:0; }
+	.social-icons figure.clients { margin-left:0; }
+	figure.clients { width: auto; }
+	a.clients { min-height: 1px; }
+	.clients img { width: 80%; }
+	.tweet, .social-icons { width: 270px; padding-left: 30px; padding-bottom: 20px; margin-top: 20px; float: none; }
+	.tweet h3 { font-size: 16px; }
+	.latest-blog { min-height: 722px; }
+	.latest-clients { min-height: 325px; }
+	a.social { margin-right: 23px; float: none; }
+	.connected { min-height: 200px; }
+	.social-icons img, footer .intro ul li.services, footer .intro ul li, footer .intro ul li.posts, .span3 { width: auto; }
+	.text1 { width: 290px; margin-bottom: 30px; }
+	.right-side .text1, .comm-text, div.author-reply .comm-text { width: auto; }
+	.footerText { padding-bottom: 30px; height: auto; }
+	.mail, .copy { float: none; }
+	
+	
+	.our-portfolio, .portfolio, .blogslider-body, li.blogslider-item { width: 300px; }
+	.right-side { display: none; }
+	.subtitle { font-size: 24px; }
+	.team1 { width: 264px; margin-bottom: 20px; }
+	.ourTeam { margin-left: -30px; }
+	.service-stuff { width: 260px; margin-left: 10px; }
+	.hire-us { width:244px; margin-left: 10px; padding-left: 10px; padding-bottom: 0; font-size: 14px;  }
+	.client-thumb { width: 50px; margin-right: 10px; }
+	a.button-hire .text { font-size: 20px; height: 32px; padding: 5px 20px; }
+	.testimonial-text { width: 128px; font-size: 12px; line-height: 20px; }
+		
+	.service-text { width: 172px; margin-bottom: 20px; }
+	.service-thumb { width: 50px; }
+	.ourServices .service1 { margin-left: 30px;  }
+	.short-title { margin-bottom: 20px; }
+	
+	div.blog-icon2 { width: 260px; margin-left: 10px; }
+	#static-content .main4, #static-content .main2 { display: none; }
+	#static-content .main1 { width: 190px; }
+	a.blog-icon2, a.showcase-icon { width: 240px; }
+	li.page-nav, ul.bottom-arrows li { font-size: 12px; padding: 0px 6px; }
+	.block1 { font-size: 14px; }
+	
+	#top-content .main3 { margin-right: 0px; }
+	.portfolio-item { width: 250px; }
+	.portfolio + .span10 { margin-left: 10px; } 
+	.short-detail { width: 130px; }
+	.long-desc { float:none; margin-top:30px; margin-bottom:30px; width:250px; }
+	
+	.right-side-contact { display:none; }
+	.leave-message, .form-field, .post-text, iframe#googleMap { width: 250px; }
+	div.contact { width: 280px; margin-left: 10px; }
+}
